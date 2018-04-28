@@ -1,1 +1,42 @@
 /*CSS Selecetors ids and classes*/
+
+
+.grid-container {
+    position: relative;
+    margin: 20px auto;
+    max-width: 805px;
+    border: 0.5px solid #000;
+    height: auto;
+    padding: 10px;
+    background: #f7f7f7;
+}
+
+
+
+.grid-blocks {
+    border: 0.5px solid #000;
+    background: #ccc;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    width: 180px;
+}
+
+.grid-blocks-image {
+    border: 0.5px solid #000;
+    background: red;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    width: 160px;
+    height: 200px;
+}
+
+.grid-blocks-title {
+  text-align: center;
+  font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    width: 160px;
+}
