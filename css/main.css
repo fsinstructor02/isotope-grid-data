@@ -1,6 +1,6 @@
 /*CSS Selecetors ids and classes*/
 
-
+.grid-buttons,
 .grid-container {
     position: relative;
     margin: 20px auto;
@@ -11,7 +11,36 @@
     background: #f7f7f7;
 }
 
+button {
+    border:none;
+    background-color: transparent;
+    padding-top:2.5px; 
+}
 
+button:focus {
+    outline: none;
+}
+
+.grid-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button-1,
+.button-2,
+.button-3 {
+    cursor: pointer;
+    position: relative;
+    margin: 0 2.5px;
+}
+
+
+
+.active-button {
+    color: red;
+    text-decoration: underline;
+}
 
 .grid-blocks {
     border: 0.5px solid #000;
@@ -40,3 +69,4 @@
     position: relative;
     width: 160px;
 }
+

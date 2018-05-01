@@ -1,28 +1,36 @@
-var dataC = [{  
-    "image": "red",
-    "title": "title 1"
+var dataC = [{ 
+    "cat": "free-stand", 
+    "image": "images/oj.jpg",
+    "title": "red blue black",
+    "link": "http://google.com"
 },{ 
-    "image": "blue",
-    "title": "title 2"
+    "cat": "countertop", 
+    "image": "images/oj.jpg",
+    "title": "title 2",
+    "link": "http://google.com"
 },{ 
-    "image": "black",
-    "title": "title 3"
+    "cat": "free-stand", 
+    "image": "images/oj.jpg",
+    "title": "title 3",
+    "link": "http://google.com"
 },{ 
-    "image": "grey",
-    "title": "title 4"
+    "cat": "countertop", 
+    "image": "images/oj.jpg",
+    "title": "title 4",
+    "link": "http://google.com"
 },{ 
-    "image": "yellow",
-    "title": "title 5"
+    "cat": "free-stand", 
+    "image": "images/oj.jpg",
+    "title": "title 5",
+    "link": "http://google.com"
 },{ 
-    "image": "lightblue",
-    "title": "title 6"
+    "cat": "countertop", 
+    "image": "images/oj.jpg",
+    "title": "title 6",
+    "link": "http://google.com"
 },{ 
-    "image": "black",
-    "title": "title 7"
-},{ 
-    "image": "blue",
-    "title": "title 8"
-},{ 
-    "image": "red",
-    "title": "title 9"
+    "cat": "countertop", 
+    "image": "images/oj.jpg",
+    "title": "title 7",
+    "link": "http://google.com"
 }]
